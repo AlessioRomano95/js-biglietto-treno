@@ -17,6 +17,7 @@ let message = 'Il prezzo del tuo biglietto è: ' + totalPrice.toFixed(2) + ' €
 if (userAge < 18 ){
     totalPrice += - (totalPrice * discountPrice)
     message = 'Il prezzo del tuo biglietto è: ' + totalPrice.toFixed(2) + ' €' 
+    
 } else if (userAge > 65) {
     discountPrice = .40
     totalPrice += - (totalPrice * discountPrice)
